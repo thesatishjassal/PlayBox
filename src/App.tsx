@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg';
 import { Box, Flex, Grid, GridItem, HStack, Show } from "@chakra-ui/react";
 import NavBar from './components/NavBar';
+import { GameGrid } from './components/GameGrid';
 import './App.css'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Box paddingLeft={2}>
         <Flex marginBottom={5}>
           <Box marginRight={5}>
+          <GameGrid /> 
           </Box>
         </Flex>
       </Box>
