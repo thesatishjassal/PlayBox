@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+form {
+  width: 100%;
+}
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 90px;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .chakra-heading.css-3h7945 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  #root {
+    padding: 1rem;
+  }
+  .css-13gzsmf {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    padding: 0;
+    max-width: 130px;
+  }
+}
